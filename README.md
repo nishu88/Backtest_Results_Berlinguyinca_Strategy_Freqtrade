@@ -2,7 +2,10 @@
 My backtest results of belinguyinca strategy in freqtrade (https://github.com/freqtrade/freqtrade-strategies)
 
 ```bash
-freqtrade backtesting --strategy-list ADXMomentum ClucMay72018 MACDStrategy_crossed Simple AdxSmas CMCWinner MACDStrategy ASDTSRockwellTrading CofiBitStrategy SmoothScalp AverageStrategy CombinedBinHAndCluc DoesNothingStrategy Quickie BbandRsi EMASkipPump ReinforcedQuickie ReinforcedSmoothScalp CCIStrategy Low_BB Scalp BBRSI BBRSI_close --ticker-interval=<XXX>
+freqtrade backtesting --strategy-list ADXMomentum ClucMay72018 MACDStrategy_crossed Simple AdxSmas 
+CMCWinner MACDStrategy ASDTSRockwellTrading CofiBitStrategy SmoothScalp AverageStrategy CombinedBinHAndCluc
+DoesNothingStrategy Quickie BbandRsi EMASkipPump ReinforcedQuickie ReinforcedSmoothScalp CCIStrategy Low_BB Scalp 
+BBRSI BBRSI_close --ticker-interval=<XXX>
 ```
 
 ## WhiteList coin pairs
